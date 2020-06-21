@@ -1,41 +1,41 @@
 // question # 01
-var displayDate = () => {
-    var date = new Date();
-    document.write('<h2>Question # 01</h2>');
-    document.write(date);
-    document.write("<br>")
-}
-displayDate();
+// var displayDate = () => {
+//     var date = new Date();
+//     document.write('<h2>Question # 01</h2>');
+//     document.write(date);
+//     document.write("<br>")
+// }
+// displayDate();
 // question # 02
-var greet = () => {
-        var firstName = prompt("Enter your first name");
-        var lastName = prompt("Enter your first name");
-        document.write('<h2>Question # 02</h2>');
+// var greet = () => {
+//         var firstName = prompt("Enter your first name");
+//         var lastName = prompt("Enter your first name");
+//         document.write('<h2>Question # 02</h2>');
 
-        document.write('Welcome to Our page ' + firstName + ' ' + lastName);
+//         document.write('Welcome to Our page ' + firstName + ' ' + lastName);
 
 
-    }
-    // greet();
-    // question # 03
-function add_num(num1, num2) {
-    document.write('<h2>Question # 03</h2>');
+//     }
+// greet();
+// question # 03
+// function add_num(num1, num2) {
+//     document.write('<h2>Question # 03</h2>');
 
-    var res = num1 + num2;
-    document.write(res);
-    document.write("<br>")
+//     var res = num1 + num2;
+//     document.write(res);
+//     document.write("<br>")
 
-}
+// }
 // add_num(2, 9);
 // question # 04
 // question # 05
-var sqr = (num) => {
-    document.write('<h2>Question # 05</h2>');
+// var sqr = (num) => {
+//         document.write('<h2>Question # 05</h2>');
 
-    document.write('sqauare root of ' + ' ' + num + ' ' + 'is' + ' ' + Math.sqrt(num) + "<br>");
-    // document.write('sqt')
-}
-sqr(9);
+//         document.write('sqauare root of ' + ' ' + num + ' ' + 'is' + ' ' + Math.sqrt(num) + "<br>");
+//         document.write('sqt')
+//     }
+// sqr(9);
 
 // question # 06
 
@@ -85,4 +85,11 @@ sqr(9);
 //     document.write('Area is ' + " " + (width * height));
 // }
 // area(2, 3);
-// question # 09
+// question # 11
+// var upperCase = (name) => {
+//     document.write('<h2>Question # 11</h2>');
+
+//     name = name.substring(0, 1).toUpperCase() + name.substring(1).toLowerCase();
+//     document.write(name);
+// }
+// upperCase("saylani");
