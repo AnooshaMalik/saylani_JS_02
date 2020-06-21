@@ -54,3 +54,35 @@ sqr(9);
 // }
 
 // fact();
+// question # 07
+// var count = () => {
+//         var start = prompt("enter the start num");
+//         var end = prompt("enter the end num");
+//         for (i = start; i <= end; i++) {
+//             document.write(i);
+//             document.write("<br>");
+//         }
+
+//     }
+// count();
+// question # 08
+// var hypo = () => {
+//     var Base = prompt("enter the Base");
+//     var perp = prompt("enter the perpendicular");
+//     var res = (Base * Base) + (perp * perp);
+//     document.write(res);
+//     document.write("<br>")
+//     var hypoSqrt = () => {
+//         document.write("<br>")
+//         document.write(Math.sqrt(res));
+//     }
+//     hypoSqrt();
+
+// }
+// hypo();
+// question # 09
+// var area = (width, height) => {
+//     document.write('Area is ' + " " + (width * height));
+// }
+// area(2, 3);
+// question # 09
